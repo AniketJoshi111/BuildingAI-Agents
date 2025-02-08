@@ -1,0 +1,66 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Ignore build artifacts
+dist/
+build/
+out/
+target/
+*.jar
+*.war
+*.ear
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
+
+# Ignore environment and secrets
+.env
+.env.local
+.env.development
+.env.production
+*.pem
+*.key
+*.crt
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Java build files
+*.class
+*.project
+*.classpath
+
+# Ignore Maven and Gradle directories
+.mvn/
+.gradle/
+
+# Ignore Spring Boot-specific files
+target/
+*.jar
+*.war
+*.ear
+
+# Ignore database and generated files
+*.sqlite
+*.db
+dump.sql
+
+# Ignore macOS and Windows system files
+*.swp
+*.swo
+*.bak
